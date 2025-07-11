@@ -1,0 +1,64 @@
+body{
+    font-family: 'Segoe UI', 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background: #f5f5fa;
+}
+
+/* shared styles */
+.btn{
+    background-color: #4E47FF;
+    color: #fff;
+    padding: 12px 25px;
+    text-decoration: none;
+    border-radius: 7px;
+    border: none;
+    font-size: 13px;
+}
+.sign-up{
+    padding: 12px 30px;
+}
+.stay-focused{
+    padding: 12 px 30px;
+}
+.btn:hover{
+    background-color: #4E47FF;
+}
+
+/* header styles */
+.header{
+    background: url(Hero-bg.png);
+    background-size: cover;
+    background-position: center;
+    text-align: center;
+    padding: 20px 20px;
+}
+
+/* navbar styles */
+.navbar{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 1400px;
+    margin: 0 auto;
+    padding: 0 105px 0 105px;
+}
+
+.logo{
+    color: #4E47FF;
+    font-weight: bold;
+    font-size: 30px;
+    padding: 0px 0 20px 0;
+}
+
+/* banner styles */ 
+
+.banner-content{
+    /* padding: 100px 0px; */
+    margin-top: 120px;
+    padding-bottom: 100px;
+}
+
+.banner-title{
+    font-size: 50px;
+    color: #252432;
+}
+
