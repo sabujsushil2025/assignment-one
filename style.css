@@ -12,6 +12,7 @@ body{
     border-radius: 7px;
     border: none;
     font-size: 13px;
+    cursor: pointer;
 }
 .sign-up{
     padding: 12px 30px;
@@ -20,7 +21,7 @@ body{
     padding: 12 px 30px;
 }
 .btn:hover{
-    background-color: #4E47FF;
+    background-color: #02021e;
 }
 
 /* header styles */
@@ -210,4 +211,54 @@ body{
 .reviewer-info{
     font-size: 12px;
     color: #868484;
+}
+
+
+
+/* <!-- Contact form styles --> */
+
+.contact-section{
+    display: flex;
+    justify-content: center;
+    gap: 170px;
+    align-items: flex-start;
+    max-width: 1000px;
+    margin: 0 auto;
+    padding: 100px 0;
+}
+
+.lets-get-in-touch{ 
+    font-size: 80px;
+    padding-top: 50px;
+}
+.contact-text{
+    font-size: 40px;
+    gap: 16px;
+    /* flex-direction: column; */
+    font-weight: bold;
+    color: #1f1f1f;
+    line-height: 1.2;
+}
+
+.contact-form{
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+    max-width: 400px;
+}
+
+.contact-form label{
+    font-size: 16px;
+    font-weight: bold;
+    margin-bottom: 0;
+}
+.contact-form input{
+    padding: 16px 18px;
+    border: 1px solid #ddd;
+    border-radius: 10px;
+}
+.contact-form textarea{ 
+  padding: 16px 18px;
+  border: 1px solid #ddd;
+  border-radius: 20px;
 }
