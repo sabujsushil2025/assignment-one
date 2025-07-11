@@ -62,3 +62,45 @@ body{
     color: #252432;
 }
 
+/* Action Section */
+
+.launch-preview-btn{
+    padding: 12 px 30px;
+    background-color: #4E47FF;
+} 
+
+
+.action-section{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    max-width: 1200px;
+    margin: 50px auto;
+    padding: 0 105px 0 105px;
+    gap: 270px;
+}
+
+.action-content{
+    max-width: 300px;
+}
+
+.action-content h2{
+    font-size: 2rem;
+    color: #252432;
+    margin-bottom: 15px;
+}
+
+
+.action-content p{
+    color:#6b6b6b;
+    margin-bottom: 20px;
+}
+
+.action-image img{
+    border-radius: 50px;
+    max-width: 100%;
+    height: 250px;
+    margin-top: 50px;
+}
+
+/* Productive user section */
